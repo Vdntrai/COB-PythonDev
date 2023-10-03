@@ -122,7 +122,7 @@ def ask_question(question):
     print(question["q"])
     for option in question["o"]:
         print(option)
-    user_answer = input("Enter your answer (a, b, c, or d): ").lower()
+    user_answer = input("Enter your answer : ").lower()
     return user_answer
 
 def check_answer(question, user_answer):
